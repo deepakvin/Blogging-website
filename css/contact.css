@@ -1,0 +1,24 @@
+
+.contact-content {
+    
+    height:100vh;
+  
+    
+    
+    padding: 5px;
+    position: relative;
+    overflow:hidden;
+  }
+   .contact-content::before {
+    content: " ";
+    background-image: url("../img/smille.svg.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index:-1;
+  } 
+.btn{
+  margin:3px;
+}
+
